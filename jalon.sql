@@ -11,11 +11,23 @@ CREATE TABLE vol (
 
     );
 
-INSERT INTO vol (id, destination, tarif, nbPlaceTotal, nbPlaceOccupee) VALUES
+    INSERT INTO vol (id, destination, tarif, nbPlaceTotal, nbPlaceOccupee) VALUES
 
-(1,"France", 300, 100, 16),
-(2,"Australie", 500, 200, 50),
-(3,"Bretagne", 30, 250, 85),
-(4,"Pole nord", 140, 487, 10),
-(5,"Poudlard", 380, 400, 5),
-(6,"Espagne", 147, 800, 90),
+    (1,"France", 300, 100, 16),
+    (2,"Australie", 500, 200, 50),
+    (3,"Bretagne", 30, 250, 85),
+    (4,"Pole nord", 140, 487, 10),
+    (5,"Poudlard", 380, 400, 5),
+    (6,"Espagne", 147, 800, 90),
+
+CREATE TABLE reservation(
+
+    id INT PRIMARY KEY AUTO_INCREMENT not null,
+    nom VARCHAR(255),
+    prenom VARCHAR(255),
+    business BOOLEAN not null,
+    age INT not null,
+    
+
+
+)
