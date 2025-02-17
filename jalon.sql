@@ -46,12 +46,12 @@ CREATE TABLE personne(
 
 INSERT INTO vol (destination, tarif, nbPlaceTotal, nbPlaceOccupee) VALUES
 
-    (1,'France', 300, 100, 16),
-    (2,'Australie', 500, 200, 50),
-    (3,'Bretagne', 30, 250, 85),
-    (4,'Pole nord', 140, 487, 10),
-    (5,'Poudlard', 380, 400, 5),
-    (6,'Espagne', 147, 800, 90);
+    ('France', 300, 100, 16),
+    ('Australie', 500, 200, 50),
+    ('Bretagne', 30, 250, 85),
+    ('Pole nord', 140, 487, 10),
+    ('Poudlard', 380, 400, 5),
+    ('Espagne', 147, 800, 90);
 
 INSERT INTO reservation(nom,prenom,business, age) VALUES
 
