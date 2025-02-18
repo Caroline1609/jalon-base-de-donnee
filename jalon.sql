@@ -81,3 +81,7 @@ INSERT INTO personne(nom, prenom, date_naissance, sexe, revenu, autre_revenu) VA
 
 SELECT * FROM vol WHERE destination LIKE 'Espagne';
 
+SELECT   * FROM    comptebancaire WHERE   proprietaire LIKE '%Bruno%';
+
+SELECT  * FROM    comptebancaire WHERE   solde > 1000;
+
